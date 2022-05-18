@@ -214,3 +214,4 @@ fabric.properties
 /.idea/inspectionProfiles/Project_Default.xml
 /.idea/to_do.iml
 /.idea/*
+/to_do/secret.json
