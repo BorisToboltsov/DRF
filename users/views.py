@@ -4,9 +4,9 @@ from django.shortcuts import render
 from rest_framework.viewsets import ModelViewSet
 
 from users.models import User
-from users.serializers import UsersModelSerializers
+from users.serializers import UsersModelSerializer
 
 
 class UsersModelViewSet(ModelViewSet):
     queryset = User.objects.all()
-    serializer_class = UsersModelSerializers
+    serializer_class = UsersModelSerializer
